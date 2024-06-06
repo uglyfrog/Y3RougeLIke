@@ -451,6 +451,22 @@
                 "\u751f\u6210\u533a\u57df": 0
             }
         }, 
+        "877772889": {
+            "variable_dict": {
+                "INTEGER": {
+                    "temp": 0, 
+                    "\u6700\u5927\u602a\u7269id": 1
+                }, 
+                "TABLE": {
+                    "\u5237\u602a\u914d\u7f6e\u8868": null
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0, 
+                "\u5237\u602a\u914d\u7f6e\u8868": 0, 
+                "\u6700\u5927\u602a\u7269id": 0
+            }
+        }, 
         "911884315": {
             "variable_dict": {
                 "PLAYER": {

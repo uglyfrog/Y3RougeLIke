@@ -266,53 +266,20 @@
                     "arg_type": 100003, 
                     "args_list": [
                         {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "魂 ："
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
+                            "arg_type": 100002, 
                             "args_list": [
                                 {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "INTEGER", 
-                                                "幸存者_分数"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 6
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "幸存者_分数"
+                                    ]
                                 }
                             ], 
-                            "sub_type": "ANY_VAR_TO_STR"
+                            "sub_type": 6
                         }
                     ], 
-                    "op_arg": [
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "STR_JOIN"
+                    "sub_type": "ANY_VAR_TO_STR"
                 }
             ], 
             "bp": false, 

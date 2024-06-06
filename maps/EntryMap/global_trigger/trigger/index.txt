@@ -1,7 +1,8 @@
 {
-    "商店_触发器.folder": 4, 
-    "幸存者.folder": 0, 
-    "掉落物品测试.json": 2, 
-    "掉落物品测试_2.json": 3, 
-    "背包系统_触发器.folder": 1
+    "UI.folder": 0, 
+    "商店_触发器.folder": 2, 
+    "幸存者.folder": 3, 
+    "怪物相关.folder": 1, 
+    "游戏相关.folder": 5, 
+    "背包系统_触发器.folder": 4
 }

@@ -90,6 +90,7 @@
                                 "can_drag": false, 
                                 "children": [], 
                                 "comp_type": "TextLabel", 
+                                "event_list": [], 
                                 "font": {
                                     "__tuple__": true, 
                                     "items": [
@@ -107,6 +108,7 @@
                                     ]
                                 }, 
                                 "font_min_size": 15, 
+                                "hover_child": "", 
                                 "italics": false, 
                                 "label_effect": {
                                     "__tuple__": true, 
@@ -153,6 +155,7 @@
                                         1
                                     ]
                                 }, 
+                                "scene_ui_name": null, 
                                 "shadow": false, 
                                 "size": {
                                     "__tuple__": true, 
@@ -249,6 +252,8 @@
                                     ]
                                 }, 
                                 "comp_type": "Image", 
+                                "event_list": [], 
+                                "hover_child": "", 
                                 "image": 133819, 
                                 "is_scale9_enable": false, 
                                 "name": "dead", 
@@ -277,6 +282,7 @@
                                         1
                                     ]
                                 }, 
+                                "scene_ui_name": null, 
                                 "size": {
                                     "__tuple__": true, 
                                     "items": [
@@ -371,6 +377,7 @@
                                 false
                             ]
                         }, 
+                        "event_list": [], 
                         "font": {
                             "__tuple__": true, 
                             "items": [
@@ -378,6 +385,7 @@
                                 24
                             ]
                         }, 
+                        "hover_child": "", 
                         "hover_status": {
                             "hover_status": {
                                 "category": "UI_BTN_STATUS", 
@@ -566,6 +574,7 @@
                                 1
                             ]
                         }, 
+                        "scene_ui_name": null, 
                         "short_cut": 0, 
                         "short_cut_2": 0, 
                         "size": {
@@ -639,7 +648,6 @@
                                 0
                             ]
                         }, 
-                        "background_type": 1, 
                         "bg_color": {
                             "__tuple__": true, 
                             "items": [
@@ -680,6 +688,8 @@
                             ]
                         }, 
                         "current_value_format": "", 
+                        "event_list": [], 
+                        "hover_child": "", 
                         "image": 133828, 
                         "is_scale9_enable": false, 
                         "max_value": 100.0, 
@@ -719,6 +729,7 @@
                                 1
                             ]
                         }, 
+                        "scene_ui_name": null, 
                         "size": {
                             "__tuple__": true, 
                             "items": [
@@ -757,7 +768,6 @@
                                 0
                             ]
                         }, 
-                        "background_type": 1, 
                         "bg_color": {
                             "__tuple__": true, 
                             "items": [
@@ -798,6 +808,8 @@
                             ]
                         }, 
                         "current_value_format": "", 
+                        "event_list": [], 
+                        "hover_child": "", 
                         "image": 133830, 
                         "is_scale9_enable": false, 
                         "max_value": 100.0, 
@@ -837,6 +849,7 @@
                                 1
                             ]
                         }, 
+                        "scene_ui_name": null, 
                         "size": {
                             "__tuple__": true, 
                             "items": [
@@ -860,6 +873,8 @@
                 }, 
                 "comp_type": "Image", 
                 "custom_kv": {}, 
+                "event_list": [], 
+                "hover_child": "", 
                 "image": 133831, 
                 "is_scale9_enable": false, 
                 "name": "hero", 
@@ -889,6 +904,7 @@
                         1
                     ]
                 }, 
+                "scene_ui_name": null, 
                 "size": {
                     "__tuple__": true, 
                     "items": [

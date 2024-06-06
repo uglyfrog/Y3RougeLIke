@@ -6040,7 +6040,48 @@
                 ]
             }, 
             "border": true, 
-            "children": [], 
+            "children": [
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            16.0, 
+                            17.0, 
+                            16.0, 
+                            17.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131811, 
+                    "name": "image_1", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            6.2, 
+                            23.5
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            5.6881, 
+                            50.0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scale": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.4, 
+                            0.4
+                        ]
+                    }, 
+                    "scene_ui_name": null, 
+                    "type": 4, 
+                    "uid": "0d92b020-6d15-4928-8099-405ca83c688a"
+                }
+            ], 
             "event_list": [], 
             "font": {
                 "__tuple__": true, 
@@ -6073,15 +6114,15 @@
             "pos": {
                 "__tuple__": true, 
                 "items": [
-                    960.0, 
-                    999.0
+                    993.0, 
+                    1004.0
                 ]
             }, 
             "pos_percent": {
                 "__tuple__": true, 
                 "items": [
-                    50.0, 
-                    92.5
+                    51.7188, 
+                    92.963
                 ]
             }, 
             "prefab_sub_key": null, 
@@ -6089,14 +6130,14 @@
             "size": {
                 "__tuple__": true, 
                 "items": [
-                    368.0, 
+                    109.0, 
                     47.0
                 ]
             }, 
             "text": {
                 "__tuple__": true, 
                 "items": [
-                    "\u5206\u6570\uff1a2341657913", 
+                    "12323", 
                     false
                 ]
             }, 
