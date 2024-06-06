@@ -155,7 +155,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1757155378949533, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "CREATE_PROJECTILE_NEW", 
@@ -227,7 +227,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1757155378000015, 
-                    "enable": true, 
+                    "enable": false, 
                     "op_arg": [
                         null, 
                         null, 
