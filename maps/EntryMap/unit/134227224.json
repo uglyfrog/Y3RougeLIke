@@ -9491,7 +9491,7 @@
                     "event_type": "UNIT_REMOVE_ITEM_FROM_PKG_EVENT"
                 }
             ], 
-            "group_id": 0, 
+            "group_id": 134227224, 
             "is_conf": true, 
             "p_trigger_id": 982220801, 
             "trigger_id": 2064588807, 
