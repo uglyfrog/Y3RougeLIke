@@ -196,16 +196,16 @@
                         "__tuple__": true, 
                         "items": [
                             [
-                                2, 
-                                888020992
+                                11, 
+                                1690513408
                             ], 
                             [
                                 0, 
                                 0
                             ], 
                             [
-                                -17, 
-                                2975301632
+                                -2, 
+                                605601792
                             ]
                         ]
                     }, 
@@ -231,7 +231,7 @@
                 "placed_visibility": true, 
                 "use_obj_attrs": true
             }, 
-            "entity_id": 134251991, 
+            "entity_id": 134279835, 
             "kv_component": {
                 "\u666e\u653b": {
                     "annotation": "", 
@@ -240,12 +240,13 @@
                     "key": "\u666e\u653b", 
                     "prop_cls": "PText", 
                     "remark": "", 
+                    "show_in_attr": true, 
                     "sort": 0, 
                     "type": 0, 
                     "value": "attack1"
                 }
             }, 
-            "name": "\u874e\u5b50", 
+            "name": "\u50f5\u5c38", 
             "type": 4, 
             "unit_id": 3
         }, 
