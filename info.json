@@ -1,0 +1,112 @@
+[
+  {
+    "name":"塔防模板",
+    "desc": "塔防",
+    "file":"ExternalResource/template_projects/TD_template.zip",
+    "preview":"ExternalResource/template_projects/td_preview",
+    "game_type": "code_td_game_type",
+    "game_rule": "code_td_game_rule_Y3",
+    "player_num": "code_td_player_num",
+    "masterpiece": "code_td_masterpiece_Y3",
+    "plugins": ""
+  },
+  {
+    "name":"动作游戏模板",
+    "desc": "动作",
+    "file":"ExternalResource/template_projects/act_Y3.zip",
+    "preview":"ExternalResource/template_projects/act_Y3_preview",
+    "game_type": "code_act_game_type",
+    "game_rule": "code_act_game_rule_Y3",
+    "player_num": "code_act_player_num",
+    "masterpiece": "code_act_masterpiece_Y3",
+    "plugins": ""
+  },
+  {
+    "name":"休闲塔防模板",
+    "desc": "休闲塔防",
+    "file":"ExternalResource/template_projects/casualTD.zip",
+    "preview":"ExternalResource/template_projects/casualTD_preview",
+    "game_type": "code_ezTD_type",
+    "game_rule": "code_ezTD_rule",
+    "player_num": "code_ezTD_player_num",
+    "masterpiece": "code_ezTD_masterpiece",
+    "plugins": ""
+  }, 
+   {
+    "name":"飞行射击模板",
+    "desc": "飞行射击",
+    "file":"ExternalResource/template_projects/biubiubiu.zip",
+    "preview":"ExternalResource/template_projects/biubiubiu_preview",
+    "game_type": "code_template_stg_gametype",
+    "game_rule": "code_template_stg_gamerule",
+    "player_num": "code_template_stg_playernum",
+    "masterpiece": "code_template_stg_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"回合制游戏模板",
+    "desc": "回合制",
+    "file":"ExternalResource/template_projects/turnbasedtemplate.zip",
+    "preview":"ExternalResource/template_projects/turnbased_preview",
+    "game_type": "code_template_turnbased_gametype",
+    "game_rule": "code_template_turnbased_gamerule",
+    "player_num": "code_template_turnbased_playernum",
+    "masterpiece": "code_template_turnbased_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"幸存者模板",
+    "desc": "幸存者",
+    "file":"ExternalResource/template_projects/SimpleSurvivor.zip",
+    "preview":"ExternalResource/template_projects/vsurvivor_preview",
+    "game_type": "code_template_vs_gametype",
+    "game_rule": "code_template_vs_gamerule",
+    "player_num": "code_template_vs_playernum",
+    "masterpiece": "code_template_vs_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"遗迹美术场景",
+    "desc": "【场景】遗迹",
+    "file":"ExternalResource/template_projects/art_scene1.zip",
+    "preview":"ExternalResource/template_projects/art_scene1_preview",
+    "game_type": "code_template_art1_gametype",
+    "game_rule": "code_template_art1_gamerule",
+    "player_num": "code_template_art1_playernum",
+    "masterpiece": "code_template_art1_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"国风美术场景",
+    "desc": "【场景】国风",
+    "file":"ExternalResource/template_projects/art_scene2.zip",
+    "preview":"ExternalResource/template_projects/art_scene2_preview",
+    "game_type": "code_template_art2_gametype",
+    "game_rule": "code_template_art2_gamerule",
+    "player_num": "code_template_art2_playernum",
+    "masterpiece": "code_template_art2_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"雪景美术场景",
+    "desc": "【场景】雪景",
+    "file":"ExternalResource/template_projects/art_scene3.zip",
+    "preview":"ExternalResource/template_projects/art_scene3_preview",
+    "game_type": "code_template_art3_gametype",
+    "game_rule": "code_template_art3_gamerule",
+    "player_num": "code_template_art3_playernum",
+    "masterpiece": "code_template_art3_masterpiece",
+    "plugins": ""
+  },   
+  {
+    "name":"中世纪美术场景",
+    "desc": "【场景】中世纪",
+    "file":"ExternalResource/template_projects/art_scene4.zip",
+    "preview":"ExternalResource/template_projects/art_scene4_preview",
+    "game_type": "code_template_art4_gametype",
+    "game_rule": "code_template_art4_gamerule",
+    "player_num": "code_template_art4_playernum",
+    "masterpiece": "code_template_art4_masterpiece",
+    "plugins": ""
+  }
+]

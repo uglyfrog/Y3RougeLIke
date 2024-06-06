@@ -1,0 +1,12 @@
+{
+    "custom": true, 
+    "effect_keep": true, 
+    "effect_max_life": -1, 
+    "effect_path": "Fx_Effect/Cartoon/Fx_Skill/Fire/Fire_1301_skill_a_01_04_copy", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134245267, 
+    "name": "\u5200\u5149"
+}

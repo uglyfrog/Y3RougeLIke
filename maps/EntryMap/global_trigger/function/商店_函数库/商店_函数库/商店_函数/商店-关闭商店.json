@@ -1,0 +1,65 @@
+{
+    "action": [
+        {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "PLAYER", 
+                                "player", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        false
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "e4eaa9d4-f9fe-42a0-958b-0fe4308d8805"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 911884315000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "关闭玩家{player}的商店", 
+    "func_id": "70a3d5cfe1f011eebed830d042e90e85", 
+    "func_name": "商店-关闭商店", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "player", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "TgI+cSMVEe+1u8TG5gPaHj", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 911884315, 
+    "trigger_name": "商店-关闭商店", 
+    "valid": true
+}

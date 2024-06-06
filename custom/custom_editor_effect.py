@@ -1,0 +1,5 @@
+# -*- encoding:utf-8 -*-
+_reload_all = True
+
+
+data = {134251522: {'model_id': 134251522, 'name': u'boomrang', 'describe': 134251522, 'key': 134251522, 'res_identify': u'', 'scale': 1.0, 'uid': 134251522, 'source_effect': 105076}, 134247894: {'model_id': 134247894, 'name': u'boomrang', 'describe': 134251522, 'key': 134247894, 'res_identify': u'', 'scale': 1.0, 'uid': 134247894, 'source_effect': None}, 134242466: {'model_id': 134242466, 'name': u'\u6a59\u8272\u5200\u5149\u8fdc\u7a0b\u653b\u51fb', 'describe': 134242466, 'key': 134242466, 'res_identify': u'', 'scale': 1.0, 'uid': 134242466, 'source_effect': 101531}, 134226133: {'model_id': 134226133, 'name': u'boomrang', 'describe': 134251522, 'key': 134226133, 'res_identify': u'', 'scale': 1.0, 'uid': 134226133, 'source_effect': None}, 134271445: {'model_id': 134271445, 'name': u'fireRing', 'describe': 134271445, 'key': 134271445, 'res_identify': u'', 'scale': 1.0, 'uid': 134271445, 'source_effect': 104650}, 134245660: {'model_id': 134237650, 'preview_icon': '', 'name': u'\u5251\u6c14', 'describe': 134245660, 'key': 134245660, 'res_identify': '', 'scale': 1.0, 'uid': '134245660', 'source_effect': 102763}}

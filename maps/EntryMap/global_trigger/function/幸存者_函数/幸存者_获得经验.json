@@ -1,0 +1,64 @@
+{
+    "action": [
+        {
+            "action_type": "UNIT_ADD_EXP", 
+            "args_list": [
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "UNIT_ENTITY", 
+                                "幸存者_主控单位"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 11
+                }, 
+                {
+                    "arg_type": 100002, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "INTEGER", 
+                                "增加数", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 6
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1329238037000004, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "获得{增加数}经验", 
+    "func_id": "c767e3b040ca11ee9f1930d042e90e85", 
+    "func_name": "幸存者_获得经验", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "增加数", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "SZ0TcHSpEe6sITDQQukOhY", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 1329238037, 
+    "trigger_name": "幸存者_获得经验", 
+    "valid": true
+}
