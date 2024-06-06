@@ -44,7 +44,7 @@
                             ], 
                             "condition_type": "FLOAT_COMPARE", 
                             "element_id": 1757155378000036, 
-                            "enable": false
+                            "enable": true
                         }
                     ], 
                     "sub_type": 1
@@ -91,64 +91,6 @@
                                             "action_type": "SET_VARIABLE", 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100030, 
-                                                    "args_list": [
-                                                        [
-                                                            "PROJECTILE", 
-                                                            "技能物"
-                                                        ]
-                                                    ], 
-                                                    "sub_type": 1
-                                                }, 
-                                                {
-                                                    "arg_type": 100062, 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100011, 
-                                                            "args_list": [
-                                                                "6f7db4e9-0cb2-4394-915a-70fe2cee79fd"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100002, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100002, 
-                                                                    "args_list": [
-                                                                        1
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }, 
-                                                                {
-                                                                    "arg_type": 100002, 
-                                                                    "args_list": [
-                                                                        3
-                                                                    ], 
-                                                                    "sub_type": 1
-                                                                }
-                                                            ], 
-                                                            "sub_type": "RANDOM_INT"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                "type"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "sub_type": "GET_PROJECTILE_TABLE_VAR_ND"
-                                                }
-                                            ], 
-                                            "bp": false, 
-                                            "element_id": 1757155378949533, 
-                                            "enable": false
-                                        }, 
-                                        {
-                                            "action_type": "SET_VARIABLE", 
-                                            "args_list": [
-                                                {
                                                     "arg_type": 100077, 
                                                     "args_list": [
                                                         {
@@ -168,12 +110,9 @@
                                                         {
                                                             "arg_type": 100062, 
                                                             "args_list": [
-                                                                [
-                                                                    "PROJECTILE", 
-                                                                    "技能物"
-                                                                ]
+                                                                134243926
                                                             ], 
-                                                            "sub_type": "VARIABLE"
+                                                            "sub_type": 1
                                                         }, 
                                                         {
                                                             "arg_type": 100004, 
@@ -270,7 +209,7 @@
                                             ], 
                                             "bp": false, 
                                             "element_id": 1757155378000015, 
-                                            "enable": false
+                                            "enable": true
                                         }, 
                                         {
                                             "action_type": "SET_VARIABLE", 
@@ -304,7 +243,7 @@
                                             ], 
                                             "bp": false, 
                                             "element_id": 1757155378000018, 
-                                            "enable": false
+                                            "enable": true
                                         }, 
                                         {
                                             "action_type": "SET_PROJECTILE_ANIMATION_SPEED", 
@@ -333,7 +272,7 @@
                                             ], 
                                             "bp": false, 
                                             "element_id": 1757155378949524, 
-                                            "enable": false
+                                            "enable": true
                                         }
                                     ], 
                                     "sub_type": 1
@@ -376,6 +315,54 @@
                             "call_rt_arg_idxes": [], 
                             "element_id": 609304604949493, 
                             "enable": false
+                        }, 
+                        {
+                            "action_type": "SET_VARIABLE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100030, 
+                                    "args_list": [
+                                        [
+                                            "INTEGER", 
+                                            "幸存者_分数"
+                                        ]
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                [
+                                                    "INTEGER", 
+                                                    "幸存者_分数"
+                                                ]
+                                            ], 
+                                            "sub_type": 6
+                                        }, 
+                                        {
+                                            "arg_type": 100016, 
+                                            "args_list": [
+                                                "+"
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "MATH_OPERATION"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1075290114949607, 
+                            "enable": true
                         }
                     ], 
                     "sub_type": 1

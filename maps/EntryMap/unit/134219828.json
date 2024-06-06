@@ -52,7 +52,7 @@
                                 {
                                     "arg_type": 100002, 
                                     "args_list": [
-                                        10
+                                        200
                                     ], 
                                     "sub_type": 1
                                 }, 
@@ -73,51 +73,95 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "SET_VARIABLE", 
+                    "action_type": "CALL_TRIGGER_FUNC", 
                     "args_list": [
                         {
-                            "arg_type": 100030, 
+                            "arg_type": 100177, 
                             "args_list": [
-                                [
-                                    "INTEGER", 
-                                    "\u5e78\u5b58\u8005_\u5206\u6570"
-                                ]
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u602a\u7269\u6b7b\u4ea1\u7ecf\u9a8c"
+                                            ]
+                                        }, 
+                                        {
+                                            "arg_type": 100002, 
+                                            "args_list": [
+                                                4
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_UNIT"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "c6678180792f11ee938630d042e90e85"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1075290114949555, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "END_GAME_FOR_ROLE_2", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100047, 
+                            "args_list": [
+                                "victory"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100070, 
+                            "args_list": [
+                                "d4c01f64-7413-4c8e-b0e5-4297d4a59c7a"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
                             ], 
                             "sub_type": 1
                         }, 
                         {
                             "arg_type": 100002, 
                             "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        [
-                                            "INTEGER", 
-                                            "\u5e78\u5b58\u8005_\u5206\u6570"
-                                        ]
-                                    ], 
-                                    "sub_type": 6
-                                }, 
-                                {
-                                    "arg_type": 100016, 
-                                    "args_list": [
-                                        "+"
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        9999
-                                    ], 
-                                    "sub_type": 1
-                                }
+                                0
                             ], 
-                            "sub_type": "MATH_OPERATION"
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1075290114000021, 
+                    "element_id": 1075290114949586, 
                     "enable": true
                 }
             ], 

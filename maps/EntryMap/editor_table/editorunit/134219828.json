@@ -73,6 +73,7 @@
         1
     ], 
     "common_atk_type": 1, 
+    "counterattack_range": 0.0, 
     "critical_chance": 0.0, 
     "critical_chance_grow": 0.0, 
     "critical_dmg": 200.0, 
@@ -124,7 +125,7 @@
     "hero_ability_list": [], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 50000.0, 
+    "hp_max": 500.0, 
     "hp_max_grow": 0.0, 
     "hp_rec": 1.0, 
     "hp_rec_grow": 0.11, 
@@ -202,6 +203,11 @@
     "preview_billboard_health_value": 50000.0, 
     "radius": 0.5, 
     "refresh_interval": 1.0, 
+    "rescue_finish_return": false, 
+    "rescue_seeker_distance": 3.0, 
+    "rescue_seeker_interval": 5.0, 
+    "rescue_seeker_type": 0, 
+    "rescuer_type": 2, 
     "research_techs": {
         "__tuple__": true, 
         "items": []
@@ -288,7 +294,6 @@
     "speed_ratio_in_turn": 0.6, 
     "standard_walk_rate": 36.0, 
     "start_rft": 1.0, 
-    "state_init": 0, 
     "state_list": [], 
     "strength": 10.0, 
     "strength_grow": 1.0, 
@@ -308,6 +313,7 @@
     "use_base_tint_color": false, 
     "use_fresnel": false, 
     "use_simple_mini_map_icon": false, 
+    "use_virtual_light": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 
     "vampire_phy": 0.0, 
@@ -328,5 +334,6 @@
     "vision_true": 0.0, 
     "vision_true_grow": 0, 
     "walk_anim": "walk", 
-    "width_offset": 0
+    "width_offset": 0, 
+    "y3_extra_info_show_type": 1
 }

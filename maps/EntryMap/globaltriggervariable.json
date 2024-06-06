@@ -89,6 +89,16 @@
                 "warn": 0
             }
         }, 
+        "335687768": {
+            "variable_dict": {
+                "INTEGER": {
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0
+            }
+        }, 
         "368988193": {
             "variable_dict": {
                 "DYNAMIC_TRIGGER_INSTANCE": {
@@ -1314,9 +1324,12 @@
             "lv_skill1": 1, 
             "lv_skill2": 1, 
             "lv_skill3": 1, 
+            "\u5347\u7ea7\u6240\u9700\u7ecf\u9a8c": 1, 
             "\u5e78\u5b58\u8005_\u5206\u6570": 0, 
             "\u5e78\u5b58\u8005_\u5347\u7ea7\u9009\u62e9\u96c6\u5408": 0, 
             "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf": 0, 
+            "\u5f53\u524d\u7ecf\u9a8c": 0, 
+            "\u602a\u7269\u6b7b\u4ea1\u7ecf\u9a8c": 0, 
             "\u80cc\u5305\u7cfb\u7edf_\u73a9\u5bb6\u6570\u91cf": 0
         }, 
         "ITEM_ENTITY": {
@@ -1341,7 +1354,7 @@
             "\u602a\u72691\u6389\u843d\u6280\u80fd": 0, 
             "\u602a\u72692\u6389\u843d\u6280\u80fd": 0, 
             "\u602a\u72693\u6389\u843d\u6280\u80fd": 0, 
-            "\u6280\u80fd\u7269": 0
+            "\u7ecf\u9a8c\u53d8\u91cf": 0
         }, 
         "PROJECTILE_ENTITY": {
             "\u6280\u80fd1\u6295\u5c04\u7269": 0, 
@@ -1520,6 +1533,20 @@
                         "lv_skill3", 
                         "lv_skill3"
                     ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u5347\u7ea7\u6240\u9700\u7ecf\u9a8c", 
+                        "\u5347\u7ea7\u6240\u9700\u7ecf\u9a8c"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        "\u5f53\u524d\u7ecf\u9a8c", 
+                        "\u5f53\u524d\u7ecf\u9a8c"
+                    ]
                 }
             ], 
             "key": "BP75nnbTEe6WCTDQQukOhf", 
@@ -1604,13 +1631,6 @@
         {
             "__tuple__": true, 
             "items": [
-                "\u6280\u80fd\u7269", 
-                "\u6280\u80fd\u7269"
-            ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
                 "\u6280\u80fd1\u6295\u5c04\u7269", 
                 "\u6280\u80fd1\u6295\u5c04\u7269"
             ]
@@ -1627,6 +1647,13 @@
             "items": [
                 "\u6280\u80fd3\u6295\u5c04\u7269", 
                 "\u6280\u80fd3\u6295\u5c04\u7269"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u7ecf\u9a8c\u53d8\u91cf", 
+                "\u7ecf\u9a8c\u53d8\u91cf"
             ]
         }, 
         {
@@ -1774,6 +1801,13 @@
             ], 
             "key": "TeKBcCMVEe+fhMTG5gPaHn", 
             "name": "\u5546\u5e97_\u5168\u5c40\u53d8\u91cf"
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u602a\u7269\u6b7b\u4ea1\u7ecf\u9a8c", 
+                "\u602a\u7269\u6b7b\u4ea1\u7ecf\u9a8c"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1807,20 +1841,23 @@
         "skill1": 0, 
         "skill2": 0, 
         "skill3": 0, 
+        "\u5347\u7ea7\u6240\u9700\u7ecf\u9a8c": 0, 
         "\u5e78\u5b58\u8005_\u4e3b\u63a7\u5355\u4f4d": 0, 
         "\u5e78\u5b58\u8005_\u5168\u5c40\u8ba1\u65f6": 0, 
         "\u5e78\u5b58\u8005_\u5206\u6570": 0, 
         "\u5e78\u5b58\u8005_\u5347\u7ea7\u9009\u62e9\u96c6\u5408": 10, 
         "\u5e78\u5b58\u8005_\u7ecf\u9a8c\u9053\u5177\u6570\u91cf": 0, 
         "\u5e78\u5b58\u8005_\u81ea\u52a8\u5347\u7ea7\u662f\u5426\u5f00\u542f": 0, 
+        "\u5f53\u524d\u7ecf\u9a8c": 0, 
         "\u602a\u72691\u6389\u843d\u6280\u80fd": 0, 
         "\u602a\u72692\u6389\u843d\u6280\u80fd": 0, 
         "\u602a\u72693\u6389\u843d\u6280\u80fd": 0, 
+        "\u602a\u7269\u6b7b\u4ea1\u7ecf\u9a8c": 10, 
         "\u6280\u80fd1\u6295\u5c04\u7269": 0, 
         "\u6280\u80fd2\u6295\u5c04\u7269": 0, 
         "\u6280\u80fd3\u6295\u5c04\u7269": 0, 
-        "\u6280\u80fd\u7269": 0, 
         "\u7269\u54c1": 0, 
+        "\u7ecf\u9a8c\u53d8\u91cf": 0, 
         "\u80cc\u5305\u663e\u793a": 0, 
         "\u80cc\u5305\u7cfb\u7edf_\u5171\u4eab\u4ed3\u5e93\u4ee3\u7406\u5355\u4f4d": 0, 
         "\u80cc\u5305\u7cfb\u7edf_\u5171\u4eab\u4ed3\u5e93\u680f\u96c6\u5408": 10, 

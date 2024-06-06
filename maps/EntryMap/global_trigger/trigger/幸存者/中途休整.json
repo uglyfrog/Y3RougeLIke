@@ -1,0 +1,27 @@
+{
+    "action": [], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        46
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1306402905000049, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "vITgISPMEe+da8TG5gPaHh", 
+    "p_trigger_id": null, 
+    "trigger_id": 1306402905, 
+    "trigger_name": "中途休整", 
+    "valid": true
+}
