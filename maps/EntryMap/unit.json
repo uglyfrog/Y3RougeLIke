@@ -163,6 +163,92 @@
             "type": 4, 
             "unit_id": 2
         }, 
+        "3": {
+            "components": {
+                "__attr": {}, 
+                "ability": {
+                    "1_1": [
+                        134239139, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 1
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                2, 
+                                888020992
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -17, 
+                                2975301632
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134251991, 
+            "kv_component": {
+                "\u666e\u653b": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "\u666e\u653b", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "sort": 0, 
+                    "type": 0, 
+                    "value": "attack1"
+                }
+            }, 
+            "name": "\u874e\u5b50", 
+            "type": 4, 
+            "unit_id": 3
+        }, 
         "4": {
             "components": {
                 "__attr": {
