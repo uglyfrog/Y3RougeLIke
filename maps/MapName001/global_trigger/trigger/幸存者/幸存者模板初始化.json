@@ -447,5 +447,5 @@
     "p_trigger_id": null, 
     "trigger_id": 609304604, 
     "trigger_name": "幸存者模板初始化", 
-    "valid": true
+    "valid": false
 }
