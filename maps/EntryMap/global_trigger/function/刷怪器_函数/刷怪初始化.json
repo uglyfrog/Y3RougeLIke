@@ -59,7 +59,7 @@
                                             "__tuple__": true, 
                                             "items": [
                                                 "INTEGER", 
-                                                "temp", 
+                                                "temp_wave", 
                                                 "local"
                                             ]
                                         }
@@ -84,14 +84,14 @@
                                             "sub_type": "VARIABLE"
                                         }, 
                                         {
-                                            "arg_type": 100003, 
+                                            "arg_type": 100002, 
                                             "args_list": [], 
-                                            "sub_type": "ITER_STRING_TABLE_VAR"
+                                            "sub_type": "ITER_TABLE_KEY_INT"
                                         }, 
                                         {
                                             "arg_type": 100003, 
                                             "args_list": [
-                                                "波次名称"
+                                                "波次序号"
                                             ], 
                                             "sub_type": 1
                                         }
@@ -144,7 +144,7 @@
                                                     "__tuple__": true, 
                                                     "items": [
                                                         "INTEGER", 
-                                                        "temp", 
+                                                        "temp_wave", 
                                                         "local"
                                                     ]
                                                 }

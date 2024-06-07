@@ -113,9 +113,9 @@
                                             "sub_type": "VARIABLE"
                                         }, 
                                         {
-                                            "arg_type": 100003, 
+                                            "arg_type": 100002, 
                                             "args_list": [], 
-                                            "sub_type": "ITER_TABLE_KEY_STR"
+                                            "sub_type": "ITER_TABLE_KEY_INT"
                                         }, 
                                         {
                                             "arg_type": 100003, 
@@ -424,9 +424,9 @@
                                                     "sub_type": "VARIABLE"
                                                 }, 
                                                 {
-                                                    "arg_type": 100003, 
+                                                    "arg_type": 100002, 
                                                     "args_list": [], 
-                                                    "sub_type": "ITER_TABLE_KEY_STR"
+                                                    "sub_type": "ITER_TABLE_KEY_INT"
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
@@ -475,9 +475,9 @@
                                                     "sub_type": "VARIABLE"
                                                 }, 
                                                 {
-                                                    "arg_type": 100003, 
+                                                    "arg_type": 100002, 
                                                     "args_list": [], 
-                                                    "sub_type": "ITER_TABLE_KEY_STR"
+                                                    "sub_type": "ITER_TABLE_KEY_INT"
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
@@ -526,9 +526,9 @@
                                                     "sub_type": "VARIABLE"
                                                 }, 
                                                 {
-                                                    "arg_type": 100003, 
+                                                    "arg_type": 100002, 
                                                     "args_list": [], 
-                                                    "sub_type": "ITER_TABLE_KEY_STR"
+                                                    "sub_type": "ITER_TABLE_KEY_INT"
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
@@ -577,9 +577,9 @@
                                                     "sub_type": "VARIABLE"
                                                 }, 
                                                 {
-                                                    "arg_type": 100003, 
+                                                    "arg_type": 100002, 
                                                     "args_list": [], 
-                                                    "sub_type": "ITER_TABLE_KEY_STR"
+                                                    "sub_type": "ITER_TABLE_KEY_INT"
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 

@@ -455,6 +455,7 @@
             "variable_dict": {
                 "INTEGER": {
                     "temp": 0, 
+                    "temp_wave": 0, 
                     "\u6700\u5927\u602a\u7269id": 1
                 }, 
                 "TABLE": {
@@ -463,6 +464,7 @@
             }, 
             "variable_length_dict": {
                 "temp": 0, 
+                "temp_wave": 0, 
                 "\u5237\u602a\u914d\u7f6e\u8868": 0, 
                 "\u6700\u5927\u602a\u7269id": 0
             }

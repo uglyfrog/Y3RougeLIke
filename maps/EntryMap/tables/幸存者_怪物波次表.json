@@ -10,7 +10,7 @@
                 "\u6bcf\u79d2\u5237\u602a\u6570"
             ], 
             [
-                "string", 
+                "int", 
                 "unit_type", 
                 "int", 
                 "int", 
