@@ -682,6 +682,28 @@
                 "\u7ed3\u675f\u65f6\u95f4": 0
             }
         }, 
+        "1247723610": {
+            "variable_dict": {
+                "INTEGER": {
+                    "temp": 0, 
+                    "temp_time": 0, 
+                    "temp_wave": 0, 
+                    "\u6700\u5927\u602a\u7269id": 1, 
+                    "\u6700\u665a\u5237\u602a\u65f6\u95f4": 0
+                }, 
+                "TABLE": {
+                    "\u5237\u602a\u914d\u7f6e\u8868": null
+                }
+            }, 
+            "variable_length_dict": {
+                "temp": 0, 
+                "temp_time": 0, 
+                "temp_wave": 0, 
+                "\u5237\u602a\u914d\u7f6e\u8868": 0, 
+                "\u6700\u5927\u602a\u7269id": 0, 
+                "\u6700\u665a\u5237\u602a\u65f6\u95f4": 0
+            }
+        }, 
         "1263185929": {
             "variable_dict": {
                 "INTEGER": {

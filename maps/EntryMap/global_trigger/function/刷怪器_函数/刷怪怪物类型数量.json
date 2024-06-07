@@ -210,7 +210,7 @@
     "func_comment": "", 
     "func_des": "函数描述{刷怪配置表}", 
     "func_id": "a3edffc023f811ef84618c8caa6b2877", 
-    "func_name": "刷怪初始化", 
+    "func_name": "刷怪怪物类型数量", 
     "func_param_list": [
         {
             "__tuple__": true, 
@@ -235,6 +235,6 @@
     "is_official_func": false, 
     "p_trigger_id": null, 
     "trigger_id": 877772889, 
-    "trigger_name": "刷怪初始化", 
+    "trigger_name": "刷怪怪物类型数量", 
     "valid": true
 }
