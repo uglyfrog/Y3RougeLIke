@@ -1,0 +1,108 @@
+{
+    "action": [
+        {
+            "action_type": "REQUEST_SWITCH_LEVEL", 
+            "args_list": [
+                {
+                    "arg_type": 900002, 
+                    "args_list": [
+                        "b4f4c0f0-2499-11ef-977c-c4c6e603da1e"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 955879516000060, 
+            "enable": true
+        }, 
+        458207325, 
+        {
+            "action_type": "CREATE_UNIT", 
+            "args_list": [
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        134227224
+                    ], 
+                    "sub_type": 1
+                }, 
+                null, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                180.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_ANGLE_BY_FLOAT"
+                }, 
+                {
+                    "arg_type": 100006, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 955879516000079, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        47
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 955879516000001, 
+            "enable": true, 
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
+        }
+    ], 
+    "group_id": "jnlxkCRyEe+1C8TG5gPaHl", 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "458207325": {
+            "action": [], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 458207325000002, 
+                    "enable": true, 
+                    "event_type": "INIT_FINISHED"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 955879516, 
+            "trigger_id": 458207325, 
+            "trigger_name": "子触发器_5", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 955879516, 
+    "trigger_name": "场景跳转", 
+    "valid": false
+}

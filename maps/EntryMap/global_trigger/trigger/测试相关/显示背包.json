@@ -1,6 +1,51 @@
 {
     "action": [
         {
+            "action_type": "SET_UI_COMP_VISIBLE", 
+            "args_list": [
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        [
+                            "PLAYER", 
+                            "背包系统_玩家集合"
+                        ], 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "背包系统_玩家数量"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100070, 
+                    "args_list": [
+                        "8b58a47c-ffaa-4525-a31c-9d0f93e0d9f6"
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1070137400000209, 
+            "enable": true
+        }, 
+        {
             "action_type": "IF_THEN_ELSE", 
             "args_list": [
                 {
@@ -262,7 +307,7 @@
             ], 
             "bp": false, 
             "element_id": 1070137400000023, 
-            "enable": true, 
+            "enable": false, 
             "fake_op": [
                 2
             ]
@@ -419,7 +464,7 @@
     ], 
     "call_enabled": true, 
     "condition": [], 
-    "enabled": true, 
+    "enabled": false, 
     "event": [
         {
             "args_list": [

@@ -200,7 +200,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 50000.0, 
+    "preview_billboard_health_value": 500.0, 
     "radius": 0.5, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": false, 

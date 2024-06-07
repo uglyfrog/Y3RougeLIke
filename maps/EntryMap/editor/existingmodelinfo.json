@@ -10,65 +10,9 @@
  {
   "__tuple__": true, 
   "items": [
-   7, 
-   "\u874e\u5b50", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   4, 
-   "\u7532\u866b", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   15, 
-   "\u50f5\u5c38", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   2, 
-   "\u874e\u5b50", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   5, 
-   "\u50f5\u5c38", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   6, 
-   "\u7532\u866b", 
-   4
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
    9999, 
    "\u521d\u59cb\u955c\u5934", 
    32768
-  ]
- }, 
- {
-  "__tuple__": true, 
-  "items": [
-   3, 
-   "\u874e\u5b50", 
-   4
   ]
  }
 ]

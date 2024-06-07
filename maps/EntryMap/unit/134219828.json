@@ -22,6 +22,60 @@
                     "bp": false, 
                     "element_id": 544051202000002, 
                     "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "+"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 544051202000007, 
+                    "enable": true
                 }
             ], 
             "call_enabled": true, 
@@ -43,35 +97,6 @@
         }, 
         "1075290114": {
             "action": [
-                {
-                    "action_type": "CALL_TRIGGER_FUNC", 
-                    "args_list": [
-                        {
-                            "arg_type": 100177, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        200
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [], 
-                                    "sub_type": "CUR_UNIT"
-                                }
-                            ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "c6678180792f11ee938630d042e90e85"
-                        }
-                    ], 
-                    "bp": false, 
-                    "call_rt_arg_idxes": [], 
-                    "element_id": 1075290114000019, 
-                    "enable": true
-                }, 
                 {
                     "action_type": "CALL_TRIGGER_FUNC", 
                     "args_list": [
@@ -162,6 +187,60 @@
                     ], 
                     "bp": false, 
                     "element_id": 1075290114949586, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "INTEGER", 
+                                        "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "-"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 544051202000007, 
                     "enable": true
                 }
             ], 
