@@ -20,12 +20,12 @@
         "platform_prop": {}
     }, 
     "五老峰": {
-        "role_id": 1, 
+        "role_id": -5, 
         "archive": {}, 
         "platform_prop": {}
     }, 
     "青蛙": {
-        "role_id": -5, 
+        "role_id": 1, 
         "archive": {}, 
         "platform_prop": {}
     }
