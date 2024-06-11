@@ -287,15 +287,15 @@
                     "pos": {
                         "__tuple__": true, 
                         "items": [
-                            633.0, 
-                            772.0
+                            113.0, 
+                            765.0
                         ]
                     }, 
                     "pos_percent": {
                         "__tuple__": true, 
                         "items": [
-                            87.0702, 
-                            87.5283
+                            15.5433, 
+                            86.7347
                         ]
                     }, 
                     "prefab_sub_key": null, 
@@ -1911,6 +1911,61 @@
                     }, 
                     "type": 4, 
                     "uid": "9acb1a41-a5a5-4fb9-bbe2-97e5712b00b0"
+                }, 
+                {
+                    "children": [
+                        {
+                            "children": [], 
+                            "event_list": [], 
+                            "name": "bt_close", 
+                            "normal_picture": 100390, 
+                            "pos": {
+                                "__tuple__": true, 
+                                "items": [
+                                    35.0, 
+                                    35.0
+                                ]
+                            }, 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    70.0, 
+                                    70.0
+                                ]
+                            }, 
+                            "type": 1, 
+                            "uid": "ebd24f26-ca47-4479-b1a7-7e786d9cd23b"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "name": "close", 
+                    "pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            692.0, 
+                            847.0
+                        ]
+                    }, 
+                    "pos_percent": {
+                        "__tuple__": true, 
+                        "items": [
+                            95.1857, 
+                            96.0317
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            70.0, 
+                            70.0
+                        ]
+                    }, 
+                    "type": 7, 
+                    "uid": "c65ef20e-28a1-4a8c-829f-d2d273e59e17"
                 }
             ], 
             "color": {

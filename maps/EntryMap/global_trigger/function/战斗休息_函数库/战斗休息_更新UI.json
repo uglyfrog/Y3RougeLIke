@@ -334,6 +334,22 @@
             "bp": false, 
             "element_id": 1953861726810938, 
             "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "2183df8f278c11efa1368c8caa6b2877"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1953861726811166, 
+            "enable": true
         }
     ], 
     "call_enabled": true, 
