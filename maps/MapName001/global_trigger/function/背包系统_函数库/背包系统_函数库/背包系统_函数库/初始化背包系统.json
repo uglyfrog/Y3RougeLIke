@@ -719,5 +719,5 @@
     "p_trigger_id": null, 
     "trigger_id": 1062608917, 
     "trigger_name": "初始化背包系统", 
-    "valid": false
+    "valid": true
 }

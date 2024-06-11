@@ -6,7 +6,7 @@
                 {
                     "arg_type": 900002, 
                     "args_list": [
-                        "b4f4c0f0-2499-11ef-977c-c4c6e603da1e"
+                        "2a765b00-24a8-11ef-8bb1-c4c6e603da1e"
                     ], 
                     "sub_type": 1
                 }
@@ -50,7 +50,7 @@
             ], 
             "bp": false, 
             "element_id": 955879516000079, 
-            "enable": true, 
+            "enable": false, 
             "op_arg": [
                 null
             ], 
@@ -104,5 +104,5 @@
     }, 
     "trigger_id": 955879516, 
     "trigger_name": "场景跳转", 
-    "valid": false
+    "valid": true
 }

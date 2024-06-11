@@ -3,6 +3,7 @@
     "商店_触发器.folder": 2, 
     "幸存者.folder": 3, 
     "怪物相关.folder": 1, 
+    "战斗休息_触发器.folder": 7, 
     "测试相关.folder": 6, 
     "游戏相关.folder": 5, 
     "背包系统_触发器.folder": 4
