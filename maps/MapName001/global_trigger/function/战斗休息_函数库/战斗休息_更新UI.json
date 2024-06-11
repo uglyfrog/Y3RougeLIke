@@ -107,7 +107,7 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 1953861726811098, 
+                            "element_id": 1953861726811172, 
                             "enable": true
                         }
                     ], 
@@ -367,5 +367,5 @@
     "p_trigger_id": null, 
     "trigger_id": 1953861726, 
     "trigger_name": "战斗休息_更新UI", 
-    "valid": false
+    "valid": true
 }
