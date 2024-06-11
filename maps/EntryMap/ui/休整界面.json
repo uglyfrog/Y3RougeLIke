@@ -1916,7 +1916,26 @@
                     "children": [
                         {
                             "children": [], 
-                            "event_list": [], 
+                            "event_list": [
+                                {
+                                    "action_list": [
+                                        {
+                                            "anim_duration": 1.2, 
+                                            "anim_id": null, 
+                                            "anim_type": 5, 
+                                            "comp": "ebd24f26-ca47-4479-b1a7-7e786d9cd23b", 
+                                            "ease_type": 0, 
+                                            "name": "Show_4", 
+                                            "open_timeline": true, 
+                                            "type": 2
+                                        }
+                                    ], 
+                                    "enabled": true, 
+                                    "name": "bt_close_0", 
+                                    "sound_id": null, 
+                                    "type": 28
+                                }
+                            ], 
                             "name": "bt_close", 
                             "normal_picture": 100390, 
                             "pos": {
