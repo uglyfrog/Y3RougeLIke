@@ -844,6 +844,20 @@
                 "\u589e\u52a0\u6570": 0
             }
         }, 
+        "1431621730": {
+            "variable_dict": {
+                "INTEGER": {
+                    "\u89d2\u8272": 0
+                }, 
+                "PLAYER": {
+                    "\u73a9\u5bb6": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "\u73a9\u5bb6": 0, 
+                "\u89d2\u8272": 0
+            }
+        }, 
         "1475612714": {
             "variable_dict": {
                 "ABILITY_NAME": {
@@ -1107,6 +1121,16 @@
             "variable_length_dict": {
                 "\u63a7\u5236\u5355\u4f4d": 0, 
                 "\u73a9\u5bb6": 0
+            }
+        }, 
+        "1943621731": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0
             }
         }, 
         "1953861726": {
@@ -1420,7 +1444,8 @@
         "TABLE": {
             "TBShopFilterList": null, 
             "TBShopFilterQueryList": null, 
-            "TBShopList": null
+            "TBShopList": null, 
+            "\u89d2\u8272\u8868": null
         }, 
         "UI_COMP": {
             "UIShopBagSlot": null, 
@@ -1868,6 +1893,13 @@
                 "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570", 
                 "\u5f53\u524d\u5269\u4f59\u602a\u7269\u6570"
             ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u89d2\u8272\u8868", 
+                "\u89d2\u8272\u8868"
+            ]
         }
     ], 
     "variable_length_dict": {
@@ -1928,6 +1960,7 @@
         "\u80cc\u5305\u7cfb\u7edf_\u73a9\u5bb6\u6570\u91cf": 0, 
         "\u80cc\u5305\u7cfb\u7edf_\u73a9\u5bb6\u96c6\u5408": 10, 
         "\u80cc\u5305\u7cfb\u7edf_\u80cc\u5305\u680f\u96c6\u5408": 10, 
-        "\u83b7\u5f97\u6280\u80fd\u7c7b\u578b": 0
+        "\u83b7\u5f97\u6280\u80fd\u7c7b\u578b": 0, 
+        "\u89d2\u8272\u8868": 0
     }
 }

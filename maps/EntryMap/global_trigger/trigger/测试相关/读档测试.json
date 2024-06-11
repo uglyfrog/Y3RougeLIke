@@ -1,38 +1,122 @@
 {
     "action": [
-        [
-            1054120849, 
-            "设置主英雄", 
-            609304604, 
-            "action_type"
-        ], 
         {
-            "action_type": "SET_VARIABLE", 
+            "action_type": "IF_THEN_ELSE", 
             "args_list": [
                 {
-                    "arg_type": 100030, 
+                    "arg_type": 100021, 
                     "args_list": [
                         {
-                            "__tuple__": true, 
-                            "items": [
-                                "UNIT_ENTITY", 
-                                "幸存者_主控单位"
+                            "args_list": [
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }, 
+                                        {
+                                            "arg_type": 100247, 
+                                            "args_list": [
+                                                1
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "sub_type": "GET_PLAYER_SAVE_DATA_TABLE_VALUE"
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "角色", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }
+                            ], 
+                            "condition_type": "TABLE_HAS_KEY", 
+                            "element_id": 1507463269000002, 
+                            "enable": false
+                        }
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "SET_PLAYER_SAVE_TABLE_VALUE", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100247, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "INTEGER", 
+                                                "角色", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 6
+                                }, 
+                                {
+                                    "arg_type": 100011, 
+                                    "args_list": [], 
+                                    "sub_type": "GET_NEW_TABLE"
+                                }
+                            ], 
+                            "bp": false, 
+                            "element_id": 1507463269000003, 
+                            "enable": false, 
+                            "op_arg": [
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false
                             ]
                         }
                     ], 
                     "sub_type": 1
                 }, 
                 {
-                    "arg_type": 100006, 
-                    "args_list": [
-                        1
-                    ], 
+                    "arg_type": 100022, 
+                    "args_list": [], 
                     "sub_type": 1
                 }
             ], 
             "bp": false, 
-            "element_id": 609304604000382, 
-            "enable": true
+            "element_id": 1507463269000004, 
+            "enable": true, 
+            "fake_op": [
+                2
+            ]
         }, 
         {
             "action_type": "SET_VARIABLE", 
@@ -165,174 +249,6 @@
             "enable": true
         }, 
         {
-            "action_type": "SET_VARIABLE", 
-            "args_list": [
-                {
-                    "arg_type": 100030, 
-                    "args_list": [
-                        {
-                            "__tuple__": true, 
-                            "items": [
-                                "ABILITY_NAME", 
-                                "skill1"
-                            ]
-                        }
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100039, 
-                    "args_list": [
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100247, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "技能1类型"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "op_arg": [
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_ABILITY_NAME"
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952931, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SET_VARIABLE", 
-            "args_list": [
-                {
-                    "arg_type": 100030, 
-                    "args_list": [
-                        {
-                            "__tuple__": true, 
-                            "items": [
-                                "ABILITY_NAME", 
-                                "skill2"
-                            ]
-                        }
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100039, 
-                    "args_list": [
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100247, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "技能2类型"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "op_arg": [
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_ABILITY_NAME"
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952945, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SET_VARIABLE", 
-            "args_list": [
-                {
-                    "arg_type": 100030, 
-                    "args_list": [
-                        {
-                            "__tuple__": true, 
-                            "items": [
-                                "ABILITY_NAME", 
-                                "skill3"
-                            ]
-                        }
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100039, 
-                    "args_list": [
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100247, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "技能3类型"
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "op_arg": [
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_ABILITY_NAME"
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952962, 
-            "enable": true
-        }, 
-        {
             "action_type": "IF_THEN_ELSE", 
             "args_list": [
                 {
@@ -370,62 +286,6 @@
                             ], 
                             "condition_type": "TABLE_HAS_KEY", 
                             "element_id": 1943621731000002, 
-                            "enable": true
-                        }, 
-                        {
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100247, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "技能1等级"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "op_arg": [
-                                        null, 
-                                        null
-                                    ], 
-                                    "op_arg_enable": [
-                                        false, 
-                                        false
-                                    ], 
-                                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_INTEGER"
-                                }, 
-                                {
-                                    "arg_type": 100015, 
-                                    "args_list": [
-                                        ">="
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "condition_type": "FLOAT_COMPARE", 
-                            "element_id": 609304604952975, 
                             "enable": true
                         }
                     ], 
@@ -466,7 +326,7 @@
                                 }
                             ], 
                             "bp": false, 
-                            "element_id": 609304604953047, 
+                            "element_id": 1507463269000065, 
                             "enable": true, 
                             "op_arg": [
                                 null, 
@@ -640,7 +500,7 @@
             ], 
             "bp": false, 
             "element_id": 1507463269000075, 
-            "enable": true, 
+            "enable": false, 
             "fake_op": [
                 2
             ]
@@ -683,62 +543,6 @@
                             ], 
                             "condition_type": "TABLE_HAS_KEY", 
                             "element_id": 1507463269000159, 
-                            "enable": true
-                        }, 
-                        {
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100247, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "技能2等级"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "op_arg": [
-                                        null, 
-                                        null
-                                    ], 
-                                    "op_arg_enable": [
-                                        false, 
-                                        false
-                                    ], 
-                                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_INTEGER"
-                                }, 
-                                {
-                                    "arg_type": 100015, 
-                                    "args_list": [
-                                        ">="
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "condition_type": "FLOAT_COMPARE", 
-                            "element_id": 609304604952996, 
                             "enable": true
                         }
                     ], 
@@ -953,7 +757,7 @@
             ], 
             "bp": false, 
             "element_id": 1507463269000155, 
-            "enable": true, 
+            "enable": false, 
             "fake_op": [
                 2
             ]
@@ -996,62 +800,6 @@
                             ], 
                             "condition_type": "TABLE_HAS_KEY", 
                             "element_id": 1507463269000207, 
-                            "enable": true
-                        }, 
-                        {
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100025, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100247, 
-                                            "args_list": [
-                                                1
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "技能3等级"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "op_arg": [
-                                        null, 
-                                        null
-                                    ], 
-                                    "op_arg_enable": [
-                                        false, 
-                                        false
-                                    ], 
-                                    "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_INTEGER"
-                                }, 
-                                {
-                                    "arg_type": 100015, 
-                                    "args_list": [
-                                        ">="
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "condition_type": "FLOAT_COMPARE", 
-                            "element_id": 609304604953013, 
                             "enable": true
                         }
                     ], 
@@ -1266,683 +1014,80 @@
             ], 
             "bp": false, 
             "element_id": 1507463269000203, 
-            "enable": true, 
+            "enable": false, 
             "fake_op": [
                 2
             ]
         }, 
         {
-            "action_type": "DISPLAY_INFO_TO_PLAYER", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100003, 
-                    "args_list": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "读档： 技能1 ："
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100039, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "ABILITY_NAME", 
-                                                "skill1"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }
-                    ], 
-                    "op_arg": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "INTEGER", 
-                                                "lv_skill1"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 6
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "STR_JOIN"
-                }, 
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952872, 
-            "enable": true
-        }, 
-        {
-            "action_type": "DISPLAY_INFO_TO_PLAYER", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100003, 
-                    "args_list": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "读档： 技能2 ："
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100039, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "ABILITY_NAME", 
-                                                "skill2"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }
-                    ], 
-                    "op_arg": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "INTEGER", 
-                                                "lv_skill2"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 6
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "STR_JOIN"
-                }, 
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952910, 
-            "enable": true
-        }, 
-        {
-            "action_type": "DISPLAY_INFO_TO_PLAYER", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100003, 
-                    "args_list": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                "读档： 技能3 ："
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100039, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "ABILITY_NAME", 
-                                                "skill3"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": "VARIABLE"
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }
-                    ], 
-                    "op_arg": [
-                        {
-                            "arg_type": 100003, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "INTEGER", 
-                                                "lv_skill3"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 6
-                                }
-                            ], 
-                            "sub_type": "ANY_VAR_TO_STR"
-                        }, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        true, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false, 
-                        false
-                    ], 
-                    "sub_type": "STR_JOIN"
-                }, 
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604952925, 
-            "enable": true
-        }, 
-        [
-            1252814246, 
-            "生成怪物", 
-            609304604, 
-            "action_type"
-        ], 
-        {
             "action_type": "CALL_TRIGGER_FUNC", 
             "args_list": [
                 {
                     "arg_type": 100177, 
                     "args_list": [
                         {
-                            "arg_type": 100011, 
+                            "arg_type": 100002, 
                             "args_list": [
-                                "8af7f50d-f726-45cc-9e7d-1444829a62ac"
+                                0
                             ], 
                             "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100006, 
+                            "arg_type": 100002, 
                             "args_list": [
                                 {
-                                    "__tuple__": true, 
-                                    "items": [
-                                        "UNIT_ENTITY", 
-                                        "幸存者_主控单位"
-                                    ]
-                                }
-                            ], 
-                            "sub_type": 11
-                        }
-                    ], 
-                    "op_arg": [], 
-                    "op_arg_enable": [], 
-                    "sub_type": "d8dc4bb0794e11eeb59730d042e90e85"
-                }
-            ], 
-            "bp": false, 
-            "call_rt_arg_idxes": [], 
-            "element_id": 609304604000358, 
-            "enable": true
-        }, 
-        [
-            1658792228, 
-            "隐藏升级选项UI", 
-            609304604, 
-            "action_type"
-        ], 
-        {
-            "action_type": "SET_UI_COMP_VISIBLE", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100070, 
-                    "args_list": [
-                        "97142900-c370-4e39-85be-ec90870254c3"
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 972218372949374, 
-            "enable": true
-        }, 
-        [
-            1196350437, 
-            "初始等级为1，提供升级选项", 
-            609304604, 
-            "action_type"
-        ], 
-        {
-            "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
-            "args_list": [
-                {
-                    "arg_type": 100000, 
-                    "args_list": [
-                        1.0
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100022, 
-                    "args_list": [
-                        {
-                            "action_type": "CALL_TRIGGER_FUNC", 
-                            "args_list": [
-                                {
-                                    "arg_type": 100177, 
+                                    "arg_type": 100025, 
                                     "args_list": [], 
-                                    "op_arg": [], 
-                                    "op_arg_enable": [], 
-                                    "sub_type": "6152d2f078ac11eeb9cf30d042e90e85"
-                                }
-                            ], 
-                            "bp": false, 
-                            "call_rt_arg_idxes": [], 
-                            "element_id": 609304604949385, 
-                            "enable": true
-                        }
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949377, 
-            "enable": false, 
-            "local_var": {
-                "__tuple__": true, 
-                "items": [
-                    {}, 
-                    {}
-                ]
-            }
-        }, 
-        [
-            2075709673, 
-            "玩家控制设置", 
-            609304604, 
-            "action_type"
-        ], 
-        {
-            "action_type": "CALL_TRIGGER_FUNC", 
-            "args_list": [
-                {
-                    "arg_type": 100177, 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [
-                                [
-                                    "UNIT_ENTITY", 
-                                    "幸存者_主控单位"
-                                ]
-                            ], 
-                            "sub_type": 11
-                        }, 
-                        {
-                            "arg_type": 100025, 
-                            "args_list": [
-                                1
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "op_arg": [], 
-                    "op_arg_enable": [], 
-                    "sub_type": "4356f39176ee11ee87f630d042e90e85"
-                }
-            ], 
-            "bp": false, 
-            "call_rt_arg_idxes": [], 
-            "element_id": 982220801948772, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SELECT_UNIT", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100006, 
-                    "args_list": [
-                        {
-                            "__tuple__": true, 
-                            "items": [
-                                "UNIT_ENTITY", 
-                                "幸存者_主控单位"
-                            ]
-                        }
-                    ], 
-                    "sub_type": 11
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949575, 
-            "enable": true
-        }, 
-        {
-            "action_type": "OPEN_OR_CLOSE_TIME_SPEED", 
-            "args_list": [
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949578, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SET_ROLE_MOUSE_LEFT_CLICK", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100048, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949597, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SET_ROLE_MOUSE_MOVE_SELECT", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100048, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949600, 
-            "enable": true
-        }, 
-        {
-            "action_type": "SET_ROLE_MOUSE_WHEEL", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100048, 
-                    "args_list": [
-                        false
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949610, 
-            "enable": true
-        }, 
-        {
-            "action_type": "NEW_CAMERA_SET_MOVE_NOT_ENABLE", 
-            "args_list": [
-                {
-                    "arg_type": 100025, 
-                    "args_list": [
-                        1
-                    ], 
-                    "sub_type": 1
-                }
-            ], 
-            "bp": false, 
-            "element_id": 609304604949620, 
-            "enable": true
-        }, 
-        [
-            1575551853, 
-            "更新HUD显示", 
-            609304604, 
-            "action_type"
-        ], 
-        {
-            "action_type": "RUN_LOOP_TIMER_NO_SAVE", 
-            "args_list": [
-                {
-                    "arg_type": 100000, 
-                    "args_list": [
-                        0.01
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100001, 
-                    "args_list": [
-                        true
-                    ], 
-                    "sub_type": 1
-                }, 
-                {
-                    "arg_type": 100022, 
-                    "args_list": [
-                        {
-                            "action_type": "SET_VARIABLE", 
-                            "args_list": [
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }, 
                                 {
-                                    "arg_type": 100030, 
+                                    "arg_type": 100247, 
                                     "args_list": [
-                                        [
-                                            "FLOAT", 
-                                            "幸存者_全局计时"
-                                        ]
+                                        1
                                     ], 
                                     "sub_type": 1
                                 }, 
                                 {
-                                    "arg_type": 100000, 
+                                    "arg_type": 100003, 
                                     "args_list": [
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                [
-                                                    "FLOAT", 
-                                                    "幸存者_全局计时"
-                                                ]
-                                            ], 
-                                            "sub_type": 2
-                                        }, 
-                                        {
-                                            "arg_type": 100017, 
-                                            "args_list": [
-                                                "+"
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                0.01
-                                            ], 
-                                            "sub_type": 1
-                                        }
+                                        "第1格物品"
                                     ], 
-                                    "sub_type": "ARITHMETIC_OPERATION"
+                                    "sub_type": 1
                                 }
                             ], 
-                            "bp": false, 
-                            "element_id": 609304604949646, 
-                            "enable": true
+                            "op_arg": [
+                                null, 
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false, 
+                                false
+                            ], 
+                            "sub_type": "GET_PLAYER_SAVE_TABLE_VALUE_INTEGER"
                         }, 
                         {
-                            "action_type": "CALL_TRIGGER_FUNC", 
+                            "arg_type": 100004, 
                             "args_list": [
                                 {
-                                    "arg_type": 100177, 
-                                    "args_list": [], 
-                                    "op_arg": [], 
-                                    "op_arg_enable": [], 
-                                    "sub_type": "015be02e7a1e11eebb9d30d042e90e85"
+                                    "arg_type": 100006, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
                                 }
                             ], 
-                            "bp": false, 
-                            "call_rt_arg_idxes": [], 
-                            "element_id": 1329238037000018, 
-                            "enable": true
+                            "sub_type": "UNIT_ENTITY_POINT"
                         }
                     ], 
-                    "sub_type": 1
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "d658f5f0d21311ee965430d042e90e85"
                 }
             ], 
             "bp": false, 
-            "element_id": 609304604949631, 
-            "enable": true, 
-            "local_var": {
-                "__tuple__": true, 
-                "items": [
-                    {}, 
-                    {}
-                ]
-            }
+            "call_rt_arg_idxes": [], 
+            "element_id": 1507463269952872, 
+            "enable": true
         }
     ], 
     "call_enabled": true, 
@@ -1950,15 +1095,23 @@
     "enabled": true, 
     "event": [
         {
-            "args_list": [], 
-            "element_id": 609304604000052, 
+            "args_list": [
+                {
+                    "arg_type": 200220, 
+                    "args_list": [
+                        38
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "element_id": 1507463269000001, 
             "enable": true, 
-            "event_type": "INIT_FINISHED"
+            "event_type": "KEYBOARD_KEY_DOWN_EVENT"
         }
     ], 
-    "group_id": "+ZProXSpEe6lYzDQQukOhV", 
+    "group_id": "ptsDgCebEe+7a8TG5gPaHk", 
     "p_trigger_id": null, 
-    "trigger_id": 609304604, 
-    "trigger_name": "幸存者模板初始化", 
+    "trigger_id": 1507463269, 
+    "trigger_name": "读档测试", 
     "valid": true
 }

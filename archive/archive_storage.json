@@ -1,32 +1,12 @@
 {
-    "1": {
-        "role_id": -1, 
-        "archive": {}, 
-        "platform_prop": {}
-    }, 
-    "test_account1": {
-        "role_id": -2, 
-        "archive": {}, 
-        "platform_prop": {}
-    }, 
-    "test_account2": {
-        "role_id": -3, 
-        "archive": {}, 
-        "platform_prop": {}
-    }, 
-    "主公带我飞": {
-        "role_id": -4, 
-        "archive": {}, 
-        "platform_prop": {}
-    }, 
     "五老峰": {
         "role_id": 1, 
-        "archive": {}, 
-        "platform_prop": {}
-    }, 
-    "青蛙": {
-        "role_id": -5, 
-        "archive": {}, 
+        "archive": {
+            "1": {
+                "data_type": 4, 
+                "data_value": "{\n[\"技能3等级\"]=1,\n[1]={\n[\"魂\"]=0,\n[\"key\"]=1,\n},\n[\"第1格物品\"]=134274763,\n[\"第2格物品\"]=134240385,\n[\"第3格物品\"]=134274763,\n[\"技能3类型\"]=134280585,\n[\"技能1等级\"]=1,\n[\"技能2类型\"]=134279695,\n[\"技能1类型\"]=134221541,\n[\"技能2等级\"]=0,\n[\"魂\"]=21,\n}"
+            }
+        }, 
         "platform_prop": {}
     }
 }
