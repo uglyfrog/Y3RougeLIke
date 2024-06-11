@@ -1109,6 +1109,18 @@
                 "\u73a9\u5bb6": 0
             }
         }, 
+        "1953861726": {
+            "variable_dict": {
+                "INTEGER": {
+                    "i": 0, 
+                    "temp": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "i": 0, 
+                "temp": 10
+            }
+        }, 
         "1978912823": {
             "variable_dict": {
                 "INTEGER": {
